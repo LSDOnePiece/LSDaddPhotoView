@@ -18,8 +18,8 @@ typedef void(^AddPhotoBlock)();
 ///
 @property(copy,nonatomic)AddPhotoBlock addPhotoBlock;
 
-#pragma mark -- 添加图片
--(void)photoCollectionViewAddImage:(UIImage *)image;
+///
+@property(assign,nonatomic)NSInteger MaxAddImageCount;
 
 -(NSArray *)getAllChosedImageArray;
 
